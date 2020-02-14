@@ -1,0 +1,17 @@
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 100vh;
+  &__innerbox{
+    border: 1px solid grey;
+    background-color: #f1f1f1;
+    width: 40%;
+    margin: 10px;
+    height: 45vh;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 7%;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="container-box">
+  <div *ngFor="let item of componentArray ;let i=index"  class="container-box__innerbox">
+    {{item}}
+    <app-layout ></app-layout>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>

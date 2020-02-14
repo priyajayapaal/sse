@@ -1,0 +1,10 @@
+.clickable-button {
+  padding: 3%;
+  margin-top: 1%;
+  border-radius: 5%;
+}
+.button-wrapper{
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

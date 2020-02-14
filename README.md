@@ -1,27 +1,27 @@
-# SSE
-UI Test for Senior Software engineers
+# UiTest
 
-Instructions :
-    - Don't commit to master branch
-    - Create a fork
-    - Commit your changes to fork
-    - email us once you are done with test
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-# UI Assessment Test
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Step 1. Create a Component which have 4 buttons [reuse that component 4 times]
-  ![Image of Step-1](https://github.com/ui-test/sse/blob/master/assets/images/step1.png?raw=true)
-Step 2. In any component if you click button 1, the component 1 get close and the layout get rearrange automatically. [In HD Screen 1366px X 768 => 2 column layout]
+## Code scaffolding
 
-Step 3. Similarly, All button should close the respected component.
-Step 4. If the button clicked again the closed Component should appear again.
-The square 1,2,3,4 are buttons. The number present inside circle is denoting the individual component.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Note:
-1.	Use Angular 2+ any version.
-2.	Push the code in github and share the link.
-3.	If you publish in Heroku its plus.
+## Build
 
-# Problems?
-Feel free to contact us if something is not clear.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
